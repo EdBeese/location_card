@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.main-image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 42px;
+}
+
+.thumb-img {
+  width: 30%;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
